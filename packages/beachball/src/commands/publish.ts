@@ -9,7 +9,8 @@ import { publishToRegistry } from '../publish/publishToRegistry';
 import { getNewPackages } from '../publish/getNewPackages';
 
 export async function publish(options: BeachballOptions) {
-  const { path: cwd, branch, registry, tag } = options;
+  const { path: cwd, branch, registry, tag, bump } = options;
+
   // First, validate that we have changes to publish
   const changes = readChangeFiles(options);
   const packageChangeTypes = getPackageChangeTypes(changes);
@@ -44,7 +45,11 @@ export async function publish(options: BeachballOptions) {
   // checkout publish branch
   const publishBranch = 'publish_' + String(new Date().getTime());
   gitFailFast(['checkout', '-b', publishBranch], { cwd });
-  console.log('Bumping version for npm publish');
+
+  if (bump) {
+    console.log('Bumping version for npm publish');
+  }
+
   const bumpInfo = gatherBumpInfo(options);
 
   if (options.new) {
@@ -60,7 +65,7 @@ export async function publish(options: BeachballOptions) {
   }
   // Step 2.
   // - reset, fetch latest from origin/master (to ensure less chance of conflict), then bump again + commit
-  if (branch && options.push) {
+  if (bump && branch && options.push) {
     await bumpAndPush(bumpInfo, publishBranch, options);
   } else {
     console.log('Skipping git push and tagging');

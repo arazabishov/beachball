@@ -11,11 +11,13 @@ import { shouldPublishPackage } from './shouldPublishPackage';
 import { validatePackageDependencies } from './validatePackageDependencies';
 
 export async function publishToRegistry(originalBumpInfo: BumpInfo, options: BeachballOptions) {
-  const { registry, tag, token, access, timeout } = options;
+  const { registry, tag, token, access, timeout, bump } = options;
   const bumpInfo = _.cloneDeep(originalBumpInfo);
   const { modifiedPackages, newPackages, packageInfos } = bumpInfo;
 
-  await performBump(bumpInfo, options);
+  if (bump) {
+    await performBump(bumpInfo, options);
+  }
 
   const succeededPackages = new Set<string>();
 
