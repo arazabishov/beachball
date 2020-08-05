@@ -1,0 +1,1 @@
+{"version":3,"file":"unlinkChangeFiles.d.ts","sourceRoot":"","sources":["../../src/changefile/unlinkChangeFiles.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,SAAS,EAAE,MAAM,qBAAqB,CAAC;AAIhD,OAAO,EAAE,WAAW,EAAE,MAAM,sBAAsB,CAAC;AAEnD;;;;GAIG;AACH,wBAAgB,iBAAiB,CAC/B,SAAS,EAAE,SAAS,EACpB,YAAY,EAAE;IACZ,CAAC,GAAG,EAAE,MAAM,GAAG,WAAW,CAAC;CAC5B,EACD,GAAG,EAAE,MAAM,QAiBZ"}

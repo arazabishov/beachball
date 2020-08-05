@@ -1,0 +1,1 @@
+{"version":3,"file":"isValidPackageName.js","sourceRoot":"","sources":["../../src/validation/isValidPackageName.ts"],"names":[],"mappings":";;AAAA,+DAA4D;AAE5D,SAAgB,kBAAkB,CAAC,GAAW,EAAE,GAAW;IACzD,MAAM,QAAQ,GAAG,+BAAc,CAAC,GAAG,CAAC,CAAC;IACrC,OAAO,QAAQ,CAAC,QAAQ,CAAC,GAAG,CAAC,CAAC;AAChC,CAAC;AAHD,gDAGC"}

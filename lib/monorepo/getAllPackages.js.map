@@ -1,0 +1,1 @@
+{"version":3,"file":"getAllPackages.js","sourceRoot":"","sources":["../../src/monorepo/getAllPackages.ts"],"names":[],"mappings":";;AAAA,uDAAoD;AAEpD,SAAgB,cAAc,CAAC,GAAW;IACxC,MAAM,KAAK,GAAG,iCAAe,CAAC,GAAG,CAAC,CAAC;IACnC,OAAO,MAAM,CAAC,IAAI,CAAC,KAAK,CAAC,CAAC;AAC5B,CAAC;AAHD,wCAGC"}

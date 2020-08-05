@@ -1,0 +1,1 @@
+{"version":3,"file":"writeChangeFiles.d.ts","sourceRoot":"","sources":["../../src/changefile/writeChangeFiles.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,cAAc,EAAE,MAAM,qBAAqB,CAAC;AAOrD;;;GAGG;AACH,wBAAgB,gBAAgB,CAC9B,OAAO,EAAE;IACP,CAAC,OAAO,EAAE,MAAM,GAAG,cAAc,CAAC;CACnC,EACD,GAAG,EAAE,MAAM,GACV,MAAM,EAAE,CAuCV"}

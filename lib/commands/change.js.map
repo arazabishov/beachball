@@ -1,0 +1,1 @@
+{"version":3,"file":"change.js","sourceRoot":"","sources":["../../src/commands/change.ts"],"names":[],"mappings":";;;;;;;;;;;AACA,mEAAgE;AAChE,qEAAkE;AAElE,SAAsB,MAAM,CAAC,OAAyB;;QACpD,MAAM,OAAO,GAAG,MAAM,iCAAe,CAAC,OAAO,CAAC,CAAC;QAE/C,IAAI,OAAO,EAAE;YACX,mCAAgB,CAAC,OAAO,EAAE,OAAO,CAAC,IAAI,CAAC,CAAC;SACzC;IACH,CAAC;CAAA;AAND,wBAMC"}

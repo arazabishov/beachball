@@ -1,0 +1,1 @@
+{"version":3,"file":"getRootOptions.js","sourceRoot":"","sources":["../../src/options/getRootOptions.ts"],"names":[],"mappings":";;AAAA,6CAA8C;AAG9C,SAAgB,cAAc;IAC5B,MAAM,cAAc,GAAG,6BAAe,CAAC,WAAW,CAAC,CAAC;IACpD,MAAM,aAAa,GAAG,cAAc,CAAC,MAAM,EAAE,CAAC;IAC9C,IAAI,aAAa,IAAI,aAAa,CAAC,MAAM,EAAE;QACzC,OAAO,aAAa,CAAC,MAAM,CAAC;KAC7B;IACD,OAAO,EAAiB,CAAC;AAC3B,CAAC;AAPD,wCAOC"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"mergeChangelogs.d.ts","sourceRoot":"","sources":["../../src/changelog/mergeChangelogs.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,gBAAgB,EAAE,MAAM,oBAAoB,CAAC;AACtD,OAAO,EAAE,WAAW,EAAE,MAAM,sBAAsB,CAAC;AAInD;;;GAGG;AACH,wBAAgB,eAAe,CAC7B,UAAU,EAAE,gBAAgB,EAAE,EAC9B,aAAa,EAAE,WAAW,GACzB,gBAAgB,GAAG,SAAS,CAsB9B"}

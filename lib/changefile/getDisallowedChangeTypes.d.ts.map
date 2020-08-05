@@ -1,0 +1,1 @@
+{"version":3,"file":"getDisallowedChangeTypes.d.ts","sourceRoot":"","sources":["../../src/changefile/getDisallowedChangeTypes.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,UAAU,EAAE,MAAM,qBAAqB,CAAC;AACjD,OAAO,EAAE,aAAa,EAAE,YAAY,EAAE,MAAM,sBAAsB,CAAC;AACnE,wBAAgB,wBAAwB,CACtC,WAAW,EAAE,MAAM,EACnB,YAAY,EAAE,YAAY,EAC1B,aAAa,EAAE,aAAa,GAC3B,UAAU,EAAE,GAAG,IAAI,CAQrB"}

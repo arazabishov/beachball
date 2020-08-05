@@ -1,0 +1,1 @@
+{"version":3,"file":"isGitAvailable.js","sourceRoot":"","sources":["../../src/validation/isGitAvailable.ts"],"names":[],"mappings":";;AAAA,oCAAuC;AACvC,gCAA6B;AAE7B,SAAgB,cAAc,CAAC,GAAW;IACxC,MAAM,MAAM,GAAG,SAAG,CAAC,CAAC,WAAW,CAAC,CAAC,CAAC;IAClC,MAAM,OAAO,GAAG,mBAAW,CAAC,GAAG,CAAC,CAAC;IACjC,OAAO,MAAM,CAAC,OAAO,IAAI,OAAO,CAAC;AACnC,CAAC;AAJD,wCAIC"}
